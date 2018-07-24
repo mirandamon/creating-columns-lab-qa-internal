@@ -65,3 +65,9 @@ img:hover {
 .large {
   
 }
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
